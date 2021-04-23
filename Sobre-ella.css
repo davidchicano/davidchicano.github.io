@@ -776,7 +776,7 @@
 }
 
 .u-section-7 .u-layout-cell-1 {
-  min-height: 241px;
+  min-height: 255px;
 }
 
 .u-section-7 .u-container-layout-1 {
@@ -791,7 +791,7 @@
 }
 
 .u-section-7 .u-text-2 {
-  margin: 20px 0 0;
+  margin: 20px 29px 0 -29px;
 }
 
 .u-section-7 .u-layout-cell-2 {
@@ -833,7 +833,7 @@
   }
 
   .u-section-7 .u-layout-cell-1 {
-    min-height: 202px;
+    min-height: 214px;
   }
 
   .u-section-7 .u-container-layout-1 {
@@ -842,6 +842,11 @@
 
   .u-section-7 .u-text-1 {
     margin-left: 0;
+  }
+
+  .u-section-7 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-7 .u-layout-cell-2 {
@@ -1165,7 +1170,7 @@
 }
 
 .u-section-9 .u-text-2 {
-  margin: 20px 0 0;
+  margin: 19px 0 0;
 }
 
 .u-section-9 .u-layout-cell-2 {
@@ -1320,7 +1325,7 @@
 }
 
 .u-section-10 .u-layout-cell-1 {
-  min-height: 241px;
+  min-height: 255px;
 }
 
 .u-section-10 .u-container-layout-1 {
@@ -1331,7 +1336,7 @@
   font-size: 6rem;
   font-weight: 700;
   letter-spacing: 2px;
-  margin: 0;
+  margin: 0 -29px 0 0;
 }
 
 .u-section-10 .u-text-2 {
@@ -1377,11 +1382,15 @@
   }
 
   .u-section-10 .u-layout-cell-1 {
-    min-height: 202px;
+    min-height: 214px;
   }
 
   .u-section-10 .u-container-layout-1 {
     padding-left: 181px;
+  }
+
+  .u-section-10 .u-text-1 {
+    margin-right: 0;
   }
 
   .u-section-10 .u-layout-cell-2 {
@@ -2215,7 +2224,6 @@
   min-height: 312px;
   background-image: url("images/logo.png");
   background-position: 50% 50%;
-  height: auto;
   width: 312px;
   margin: 170px auto 0;
 }
@@ -2249,8 +2257,8 @@
   }
 
   .u-section-15 .u-image-2 {
+    min-height: 253px;
     width: 253px;
-    height: auto;
   }
 }
 
@@ -2286,6 +2294,7 @@
   }
 
   .u-section-15 .u-image-2 {
+    min-height: 180px;
     width: 180px;
   }
 }
@@ -2463,7 +2472,6 @@
   width: 324px;
   min-height: 399px;
   background-image: none;
-  height: auto;
   margin: 0 auto 0 0;
 }
 
@@ -2496,7 +2504,6 @@
   width: 476px;
   min-height: 351px;
   background-image: none;
-  height: auto;
   margin: 0 auto 0 0;
 }
 
@@ -2518,7 +2525,7 @@
 .u-section-17 .u-image-2 {
   width: 520px;
   height: 464px;
-  object-position: 50% 26.03%;
+  object-position: 50% 31.84%;
   margin: -351px 0 0 auto;
 }
 
@@ -2530,7 +2537,6 @@
   width: 304px;
   min-height: 439px;
   background-image: none;
-  height: auto;
   margin: 0 auto 0 0;
 }
 
@@ -2571,7 +2577,6 @@
   width: 476px;
   min-height: 231px;
   background-image: none;
-  height: auto;
   margin: 0 auto 0 0;
 }
 
@@ -2605,7 +2610,6 @@
   width: 374px;
   min-height: 399px;
   background-image: none;
-  height: auto;
   margin: 0 auto 0 0;
 }
 
@@ -2633,11 +2637,13 @@
 .u-section-17 .u-carousel-control-1 {
   width: 50px;
   height: 50px;
+  background-image: none;
 }
 
 .u-section-17 .u-carousel-control-2 {
   width: 50px;
   height: 50px;
+  background-image: none;
 }
 
 @media (max-width: 1199px) {
@@ -2662,7 +2668,6 @@
     width: 405px;
     min-height: 440px;
     margin-right: 435px;
-    height: auto;
   }
 
   .u-section-17 .u-text-1 {
@@ -2684,7 +2689,6 @@
     width: 405px;
     min-height: 440px;
     margin-right: 435px;
-    height: auto;
   }
 
   .u-section-17 .u-text-3 {
@@ -2702,7 +2706,6 @@
     width: 405px;
     min-height: 440px;
     margin-right: 435px;
-    height: auto;
   }
 
   .u-section-17 .u-text-5 {
@@ -2722,7 +2725,6 @@
     width: 405px;
     min-height: 440px;
     margin-right: 435px;
-    height: auto;
   }
 
   .u-section-17 .u-text-7 {
@@ -2733,7 +2735,6 @@
     width: 405px;
     min-height: 440px;
     margin-right: 435px;
-    height: auto;
   }
 
   .u-section-17 .u-text-9 {
@@ -3258,7 +3259,6 @@
   width: 724px;
   min-height: 479px;
   grid-template-rows: auto;
-  height: auto;
   margin: 60px 0 0 auto;
 }
 
@@ -3352,6 +3352,7 @@
   .u-section-20 .u-list-1 {
     width: 561px;
     min-height: 623px;
+    height: auto;
   }
 
   .u-section-20 .u-repeater-1 {
@@ -3453,6 +3454,7 @@
 @media (max-width: 767px) {
   .u-section-20 .u-list-1 {
     width: 540px;
+    min-height: 2477px;
   }
 
   .u-section-20 .u-image-1 {
@@ -3496,6 +3498,7 @@
 
   .u-section-20 .u-list-1 {
     width: 340px;
+    min-height: 623px;
   }
 
   .u-section-20 .u-image-1 {
